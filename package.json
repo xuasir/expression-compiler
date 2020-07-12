@@ -1,0 +1,18 @@
+{
+  "name": "fruitscript",
+  "version": "1.0.0",
+  "description": "script ",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "xuguo <xg501@outlook.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.6.0",
+    "@typescript-eslint/parser": "^3.6.0",
+    "eslint": "^7.4.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.0.5"
+  }
+}
