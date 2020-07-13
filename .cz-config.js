@@ -11,10 +11,11 @@ module.exports = {
     { value: 'docs', name: 'docs: 文档更新相关的提交' },
     { value: 'build', name: 'build: 主要目的是修改项目构建系统(例如 glup，webpack，rollup 的配置等)的提交' },
     { value: 'ci', name: 'ci: 主要目的是修改项目继续集成流程(例如 Travis，Jenkins，GitLab CI，Circle 等)的提交' },
+    { value: 'dep', name: 'dep: 依赖版本更新或者修改相关提交' },
     { value: 'pref', name: 'pref: 性能优化的提交' },
     { value: 'revert', name: 'revert: 回滚某个更早之前的提交' },
-    { value: 'chore', name: 'chore: 不属于以上类型的其他类型' },
-    { value: 'WIP', name: 'WIP: 还在开发进程中(Work In Progress)' }
+    { value: 'WIP', name: 'WIP: 还在开发进程中(Work In Progress)' },
+    { value: 'chore', name: 'chore: 不属于以上类型的其他类型' }
   ],
   // scope选项
   // scopes: [{ name: 'accounts' }],
@@ -29,5 +30,5 @@ module.exports = {
     confirmCommit: '是否确认此次变更提交以上内容所构成的commit记录？'
   },
   // 短标题字数限制
-  subjectLimit: 20
+  subjectLimit: 30
 }
