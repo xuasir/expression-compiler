@@ -3,18 +3,19 @@ module.exports = {
     browser: true,
     node: true
   },
-  parser: '@typescript-eslint/parser',
   parserOptions: {
+    parser: 'babel-eslint',
     ecmaVersion: '2019',
     sourceType: 'module'
   },
   extends: [
-    'plugin:@typescript-eslint/recommended',
-    'prettier/@typescript-eslint',
+    'airbnb-base',
     'plugin:prettier/recommended'
   ],
-  plugins: ['@typescript-eslint'],
+  plugins: [
+    'import'
+  ],
   rules: {
-
-  }
-}
+    'no-underscore-dangle': 0
+  },
+};

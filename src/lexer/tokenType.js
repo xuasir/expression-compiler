@@ -1,4 +1,4 @@
-import Enum from '../helper/enum'
+import { Enum } from '../helper/enum'
 
 export default {
   KEYWORD: new Enum('KEYWORD', 1),
