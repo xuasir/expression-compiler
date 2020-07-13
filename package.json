@@ -1,6 +1,6 @@
 {
   "name": "fruitscript",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "script ",
   "main": "index.js",
   "scripts": {

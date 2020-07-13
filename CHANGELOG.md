@@ -1,4 +1,11 @@
 版本日志
+### [1.2.1](https://github.com/xuguo-code/fruitscript/compare/v1.2.0...v1.2.1) (2020-07-13)
+
+
+### bug修复
+
+* **index:** bug-3 ([17dce15](https://github.com/xuguo-code/fruitscript/commit/17dce1504eb775907cd21d273d2a5bb7d2aa550f)), closes [#1235](http://bug.leimingtech.com/zentao/bug-view-1235.html)
+
 ## [1.2.0](https://github.com/xuguo-code/fruitscript/compare/v1.1.0...v1.2.0) (2020-07-13)
 
 
