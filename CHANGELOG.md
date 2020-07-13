@@ -1,6 +1,15 @@
-# Changelog
+版本日志
+## [1.2.0](https://github.com/xuguo-code/fruitscript/compare/v1.1.0...v1.2.0) (2020-07-13)
 
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### bug修复
+
+* **index:** bugfix-2 ([252e160](https://github.com/xuguo-code/fruitscript/commit/252e160b79e8493aa3ea0c38a9558f8369943d42))
+
+
+### 新增功能
+
+* **index:** feta3 ([6035dfe](https://github.com/xuguo-code/fruitscript/commit/6035dfe58835508341e8658ea5564f0d9c1c3a25))
 
 ## 1.1.0 (2020-07-13)
 
