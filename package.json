@@ -1,12 +1,13 @@
 {
   "name": "fruitscript",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "script ",
   "main": "index.js",
   "scripts": {
     "lint": "eslint . --ext .js",
     "lint:fix": "eslint --fix . --ext .js",
-    "cm": "git-cz"
+    "cm": "git-cz",
+    "release": "standard-version --no-verify"
   },
   "keywords": [],
   "author": "xuguo <xg501@outlook.com>",
@@ -25,7 +26,8 @@
     "eslint-plugin-prettier": "^3.1.4",
     "husky": "^4.2.5",
     "lint-staged": "^10.2.11",
-    "prettier": "^2.0.5"
+    "prettier": "^2.0.5",
+    "standard-version": "^8.0.1"
   },
   "config": {
     "commitizen": {
