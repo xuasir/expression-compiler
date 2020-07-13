@@ -16,11 +16,13 @@ module.exports = {
     { value: 'chore', name: 'chore: 不属于以上类型的其他类型' },
     { value: 'WIP', name: 'WIP: 还在开发进程中(Work In Progress)' }
   ],
+  // scope选项
+  // scopes: [{ name: 'accounts' }],
   // 汉化交互式信息
   messages: {
     type: '为你的此次提交选择一种提交类型:',
-    scope: '输入此次修改的文件或者功能模块(optional):',
-    subject: '为此次提交输入一个简短的标题:',
+    scope: '\n输入此次修改的文件或者功能模块(optional):',
+    subject: '为此次提交输入一个简短的标题(20个字以内):',
     body: '请提供一个对此次提交的详细描述，输入 "|" 即可换行:',
     breaking: '列举此次提交带来的重大变更(breaking change) (optional):',
     footer: '列举此次提交修复的bug编号，如#1234 (optional)',

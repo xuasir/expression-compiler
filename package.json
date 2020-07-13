@@ -12,6 +12,8 @@
   "author": "xuguo <xg501@outlook.com>",
   "license": "ISC",
   "devDependencies": {
+    "@commitlint/cli": "^9.1.1",
+    "@commitlint/config-conventional": "^9.1.1",
     "babel-core": "^6.26.3",
     "babel-eslint": "^10.1.0",
     "commitizen": "^4.1.2",
@@ -21,6 +23,7 @@
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-prettier": "^3.1.4",
+    "husky": "^4.2.5",
     "lint-staged": "^10.2.11",
     "prettier": "^2.0.5"
   },
@@ -29,8 +32,11 @@
       "path": "./node_modules/cz-customizable"
     }
   },
-  "gitHooks": {
-    "pre-commit": "lint-staged"
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
   },
   "lint-staged": {
     "*.{js}": [
