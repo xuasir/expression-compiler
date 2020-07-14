@@ -7,15 +7,17 @@
     "lint": "eslint . --ext .js",
     "lint:fix": "eslint --fix . --ext .js",
     "cm": "git-cz",
-    "release": "standard-version --no-verify"
+    "release": "standard-version --no-verify",
+    "test": "jest"
   },
   "keywords": [],
   "author": "xuguo <xg501@outlook.com>",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
     "@commitlint/cli": "^9.1.1",
     "@commitlint/config-conventional": "^9.1.1",
-    "babel-core": "^6.26.3",
     "babel-eslint": "^10.1.0",
     "commitizen": "^4.1.2",
     "cz-customizable": "^6.2.1",
@@ -25,6 +27,7 @@
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-prettier": "^3.1.4",
     "husky": "^4.2.5",
+    "jest": "^26.1.0",
     "lint-staged": "^10.2.11",
     "prettier": "^2.0.5",
     "standard-version": "^8.0.1"

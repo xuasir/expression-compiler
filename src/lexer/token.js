@@ -10,6 +10,10 @@ class Token {
     return this._type
   }
 
+  getValue() {
+    return this._value
+  }
+
   // 是否为变量
   isVariable() {
     return this._type === TokenType.VARIABLE

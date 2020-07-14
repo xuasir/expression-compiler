@@ -5,6 +5,4 @@ class Enum {
   }
 }
 
-exports = {
-  Enum
-}
+export { Enum }
