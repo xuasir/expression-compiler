@@ -8,7 +8,7 @@
     "lint:fix": "eslint --fix . --ext .js",
     "cm": "git-cz",
     "release": "standard-version --no-verify",
-    "test": "jest"
+    "test": "jest --watch"
   },
   "keywords": [],
   "author": "xuguo <xg501@outlook.com>",
@@ -30,6 +30,8 @@
     "jest": "^26.1.0",
     "lint-staged": "^10.2.11",
     "prettier": "^2.0.5",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
     "standard-version": "^8.0.1"
   },
   "config": {
