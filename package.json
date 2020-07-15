@@ -50,5 +50,8 @@
       "lint && lint:fix",
       "prettier --write"
     ]
+  },
+  "dependencies": {
+    "linkedlist": "^1.0.1"
   }
 }

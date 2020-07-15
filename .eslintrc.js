@@ -19,7 +19,9 @@ module.exports = {
   overrides: [
     {
       files: ['**/__test__/**'],
-      rules: {}
+      rules: {
+        'no-restricted-syntax': 0
+      }
     }
   ]
 }
