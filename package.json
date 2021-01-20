@@ -1,23 +1,57 @@
 {
   "name": "fruitscript",
-  "version": "1.0.0",
+  "version": "1.2.1",
   "description": "script ",
   "main": "index.js",
   "scripts": {
     "lint": "eslint . --ext .js",
-    "lint:fix": "eslint --fix . --ext .js"
+    "lint:fix": "eslint --fix . --ext .js",
+    "cm": "git-cz",
+    "release": "standard-version --no-verify",
+    "test": "jest --watch"
   },
   "keywords": [],
   "author": "xuguo <xg501@outlook.com>",
   "license": "ISC",
   "devDependencies": {
-    "babel-core": "^6.26.3",
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "@commitlint/cli": "^9.1.1",
+    "@commitlint/config-conventional": "^9.1.1",
     "babel-eslint": "^10.1.0",
-    "eslint": "6.8.0",
+    "commitizen": "^4.1.2",
+    "cz-customizable": "^6.2.1",
+    "eslint": "^7.4.0",
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-prettier": "^3.1.4",
-    "prettier": "^2.0.5"
+    "husky": "^4.2.5",
+    "jest": "^26.1.0",
+    "lint-staged": "^10.2.11",
+    "prettier": "^2.0.5",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "standard-version": "^8.0.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-customizable"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "lint-staged": {
+    "*.{js}": [
+      "lint && lint:fix",
+      "prettier --write"
+    ]
+  },
+  "dependencies": {
+    "linkedlist": "^1.0.1"
   }
 }
