@@ -10,7 +10,6 @@ export default defineConfig({
   },
   lint: {
     eslint: {
-      include: './src/**/*',
       ext: ['.ts']
     },
     stylelint: false
