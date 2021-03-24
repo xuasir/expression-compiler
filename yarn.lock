@@ -1975,6 +1975,11 @@
     "@xus/cli-shared" "^0.4.0"
     tapable "^2.2.0"
 
+"@xus/data-structures@^0.3.2":
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/@xus/data-structures/-/data-structures-0.3.2.tgz#8260ecfa0ba434f59b5214d2e9a1fb7a5839589b"
+  integrity sha512-OGUlhCGC0UjXQvHfFREGYR8x6hn3XRjLJYnLBMlUjsrrCauglyrWJ3Ef5gWnsimsuPFidOFJPvmQGQnOpmf3zQ==
+
 "@xus/eslint-config@^0.1.4":
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/@xus/eslint-config/-/eslint-config-0.1.4.tgz#28be73695a06a4b491160b96b0ad633092a1330b"
