@@ -41,3 +41,5 @@ export class Token {
     return `type: ${this._type}, value: ${this._value}`
   }
 }
+
+export type IToken = InstanceType<typeof Token>

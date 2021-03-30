@@ -1,4 +1,4 @@
-import { Token, TokenType } from '../../src/shared'
+import { Token, TokenType } from '../../src/lexer/token'
 
 describe(`test token `, () => {
   it(`basic method`, () => {

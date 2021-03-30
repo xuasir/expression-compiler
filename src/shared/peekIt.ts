@@ -67,3 +67,5 @@ export class PeekIt {
     }
   }
 }
+
+export type IPeekIt = InstanceType<typeof PeekIt>
